@@ -1,0 +1,5 @@
+dataset/
+model/
+__pycache__/
+*.pyc
+training_result.png
