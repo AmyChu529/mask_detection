@@ -57,7 +57,8 @@ while True:
     cv2.imshow("Mask Detection", frame)
 
     # 按 Q 離開
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord('q') or key == 27:  # Q 或 ESC 都可以離開
         break
 
 cap.release()
