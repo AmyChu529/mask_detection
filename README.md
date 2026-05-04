@@ -19,7 +19,7 @@
 ## 安裝步驟
 
 1. 複製專案
-   git clone https://github.com/AmyChu529/mask-detection.git
+   git clone git clone https://github.com/AmyChu529/mask_detection.git
    cd mask-detection
 
 2. 安裝套件
